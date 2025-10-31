@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.pkl
+*.ckpt
+
+# Model exports (keep structure but ignore large files)
+models/*.pt
+models/*.pth
+models/*.ts
+models/*.pte
+models/*.onnx
+models/*.tflite
+!models/.gitkeep
+
+# Data (keep structure, ignore large files)
+data/SpeechCommands/speech_commands_v0.02/
+data/SpeechCommands/*.tar.gz
+!data/.gitkeep
+!data/hello/
+!data/other/
+
+# Plots and outputs
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!docs/images/*
+
+# Logs
+*.log
+logs/
+wandb/
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment variables
+.env
+.env.local
+
+# Audio recordings (large files)
+recordings/
+*.wav
+!data/hello/*.wav
+!data/other/*.wav
+
+# Cache
+.cache/
+*.cache
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
